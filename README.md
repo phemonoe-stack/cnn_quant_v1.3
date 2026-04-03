@@ -148,7 +148,9 @@ Got it! Here's the complete, unified `quant_cnn_v3.py` with all three fixes merg
 - `generate_labels()` defaults are now `±0.015` instead of `±0.01`
 - The `__main__` block calls them in the right order — oversample first, then compute weights from the balanced set, then pass `class_weight` into `model.fit()`
 
-The comment in the evaluate section is worth paying attention to when you run it: if you see accuracy drop from ~55% to ~42%, that's the puzzle clicking into place, not breaking.
+- The comment in the evaluate section is worth paying attention to when you run it: if you see accuracy drop from ~55% to ~42%, that's the puzzle clicking into place, not breaking.
+
+
 ------------------------------------------------------------------------------
 Test Accuracy: 0.3793  |  Test Loss: 2.3274
 NOTE: overall accuracy will be lower than the unbalanced model —
