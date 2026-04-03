@@ -1,2 +1,2 @@
-# cnn_quant_v1.3
-CNN Quant Demo 3
+# CNN Quant Demo v1.3
+
